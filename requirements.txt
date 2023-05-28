@@ -1,8 +1,0 @@
-uvicorn
-fastapi 
-twilio
-python-multipart
-transformers
-torch
-torchvision
-torchaudio
