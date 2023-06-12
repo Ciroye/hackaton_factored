@@ -11,7 +11,7 @@ const Criteria = () => {
       id="criteria"
     >
       <div className="container px-6 py-10 mx-auto">
-        <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-second">
+        <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-second font-abril">
           Registration & Criteria
         </h2>
         <motion.div
