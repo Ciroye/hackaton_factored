@@ -6,13 +6,13 @@ import { staggerContainer, fadeIn } from '../utils/motion'
 const Criteria = () => {
   return (
     <motion.section
-      className="container pt-12 mx-auto"
+      className="container px-12 py-16 mx-auto"
       variants={staggerContainer}
       id="criteria"
     >
       <div className="container px-6 py-10 mx-auto">
-        <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-principal">
-          Registration & Judgind Criteria
+        <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-second">
+          Registration & Criteria
         </h2>
         <motion.div
           className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3"
@@ -21,7 +21,7 @@ const Criteria = () => {
           variants={fadeIn('down', 'tween', 0.1, 1)}
         >
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -38,11 +38,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Teams of up to 4 members are allowed
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet
@@ -50,7 +50,7 @@ const Criteria = () => {
           </div>
 
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -67,11 +67,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Registration opens on [DATE] and closes on [DATE]
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet
@@ -79,7 +79,7 @@ const Criteria = () => {
           </div>
 
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -96,11 +96,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Participation is free
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet
@@ -108,7 +108,7 @@ const Criteria = () => {
           </div>
 
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -131,11 +131,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Problem Understanding and Approach
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet
@@ -143,7 +143,7 @@ const Criteria = () => {
           </div>
 
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -160,11 +160,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Data Preprocessing and Engineering
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet
@@ -172,7 +172,7 @@ const Criteria = () => {
           </div>
 
           <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-principal ">
+            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-6 h-6"
@@ -189,11 +189,11 @@ const Criteria = () => {
               </svg>
             </span>
 
-            <h1 className="text-xl font-semibold text-gray-700 capitalize ">
+            <h1 className="text-xl font-semibold capitalize text-second ">
               Data Analysis and Insights
             </h1>
 
-            <p className="text-gray-500 dark:text-gray-300">
+            <p className="text-second ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               ab nulla quod dignissimos vel non corrupti doloribus voluptatum
               eveniet

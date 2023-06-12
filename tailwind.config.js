@@ -10,6 +10,11 @@ module.exports = {
       padding: '2rem',
     },
     extend: {
+      fontFamily: {
+        abril: ['Abril Display', 'serif'],
+        roboto: ['Roboto', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -18,7 +23,11 @@ module.exports = {
       colors: {
         letter: '#515151',
         principal: '#43B6C5',
-        second: '#434d57',
+        second: '#1B418C',
+        third: '#334155',
+        fourth: '#43FFD2',
+        fifth: '#00FFFF',
+        sixth: '#092C4C',
       },
     },
   },

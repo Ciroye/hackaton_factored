@@ -10,11 +10,21 @@ export default function Home() {
   return (
     <div>
       <NavBar />
-      <Hero />
-      <Challenge />
-      <Timeline />
-      <Details />
-      <Criteria />
+      <div className="bg-third">
+        <Hero />
+      </div>
+      <div className="bg-second">
+        <Challenge />
+      </div>
+      <div className="bg-fifth">
+        <Timeline />
+      </div>
+      <div className="bg-second">
+        <Details />
+      </div>
+      <div className="bg-fifth">
+        <Criteria />
+      </div>
       <Footer />
     </div>
   )

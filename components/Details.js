@@ -28,10 +28,7 @@ const Details = () => {
   ]
 
   return (
-    <section className="container mx-auto mt-36" id="details">
-      <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-principal">
-        What are the details?
-      </h2>
+    <section className="container py-32 mx-auto" id="details">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -45,7 +42,10 @@ const Details = () => {
             variants={fadeIn('right', 'tween', 0.2, 1)}
           >
             <div>
-              <h1 className="text-xl font-semibold text-lette">
+              <h2 className="flex w-full mb-10 text-6xl font-bold text-white justify-left font-abril">
+                What are the details?
+              </h2>
+              <h1 className="text-xl font-semibold text-white">
                 Your mission is to embark on an end-to-end data project to build
                 a solution that should not just be technically robust, but must
                 provide business insights to solve the likes of product
@@ -62,13 +62,12 @@ const Details = () => {
             {details.map((detail, index) => (
               <>
                 <div className="flex items-start">
-                  <span className="inline-block p-2 mt-[6px] text-blue-500 bg-principal rounded-xl"></span>
                   <div className="mx-4 mt-0">
-                    <h1 className="text-xl font-semibold text-letter ">
+                    <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
                       {detail.title}
                     </h1>
 
-                    <p className="mt-3 text-letter ">{detail.description}</p>
+                    <p className="mt-3 text-white ">{detail.description}</p>
                   </div>
                 </div>
               </>
