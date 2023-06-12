@@ -13,17 +13,17 @@ const Details = () => {
     {
       title: 'Where?',
       description:
-        'The hackathon is online. Over [Discord, Slack] you’ll have the opportunity to connect with other participants and Factored Experts. We’ll also be hosting workshops, keynotes and mentoring sessions.',
+        "The hackathon will take place online. Over [Discord, Slack], you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
     },
     {
       title: 'Who?',
       description:
-        'We welcome anyone with experience with at least 1+ years of Data analytics experience in any field regarding Machine Learning, Data Engineering and Data Analytics.',
+        'We welcome anyone with experience and/or interest in data analytics in any field related to Machine Learning, Software Engineering, Data Engineering, and Data Analytics.',
     },
     {
       title: 'How?',
       description:
-        'Tha hackathon will take place over two weeks (See Timeline). There will be commit windows for you to push your changes to GitHub between XX:XX and XX:XX every day. We have set up a [Discord, Slack] to help you connect with us and other participants. Through this platform we will be sharing real time updates about the hackathon and logistics. To communicate with your team you’re free to use any platform of your choosing.',
+        'The hackathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our [Discord, Slack] community to stay updated on real-time hackathon news and logistics. Communicate with your team through any platform of your choice.',
     },
   ]
 
@@ -45,12 +45,7 @@ const Details = () => {
               <h2 className="flex w-full mb-10 text-6xl font-bold text-white justify-left font-abril">
                 What are the details?
               </h2>
-              <h1 className="text-xl font-semibold text-white">
-                Your mission is to embark on an end-to-end data project to build
-                a solution that should not just be technically robust, but must
-                provide business insights to solve the likes of product
-                optimization, new product development and more!
-              </h1>
+              <h1 className="text-xl font-semibold text-white"></h1>
 
               <div className="mt-2">
                 <span className="inline-block w-40 h-1 rounded-full bg-principal"></span>
@@ -78,13 +73,13 @@ const Details = () => {
             className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center"
             variants={challangeVariantsImage('left', 'tween', 0.2, 1)}
           >
-            <Image
+            {/* <Image
               className="object-cover rounded-[136px]"
               src="/details.png"
               alt=""
               width={500}
               height={500}
-            />
+            /> */}
           </motion.div>
         </div>
 

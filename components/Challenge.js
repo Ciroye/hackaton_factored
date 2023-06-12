@@ -11,10 +11,9 @@ import {
 
 const Challenge = () => {
   const challengesFeatures = [
-    'Develop a solution that help businesses get insights from their products',
-    'Explore a large dataset of product reviews to identify key patterns and trends',
-    'Develop insightful visualizations to communicate your findings to stakeholders',
-    'Build machine learning models that helps untangling the complexities of reviews',
+    'Extracting data from multiple sources, harmonizing datasets, and automating data transformation.',
+    'Exploring and visualizing correlations, selecting vital features, and experimenting with machine learning models.',
+    'Addressing data issues, analyzing key parameters, visualizing insights, and selecting relevant KPIs.',
   ]
 
   return (
@@ -34,8 +33,10 @@ const Challenge = () => {
             <h2 className="flex w-full pb-12 font-extrabold text-white text-7xl justify-left font-abril">
               The Challenge
             </h2>
-            <h2 className={`text-4xl text-white font-abril leading-[48px] `}>
-              The challenge is to deliver an innovative data solution
+            <h2 className={`text-3xl text-white font-abril leading-[38px] `}>
+              You will help businesses in their journey for product
+              optimization, marketing budget allocation, and customer propensity
+              scoring.
             </h2>
             <div className="flex flex-col gap-6 mt-8 mr-8">
               {challengesFeatures.map((feature, index) => (
@@ -61,13 +62,13 @@ const Challenge = () => {
               className="flex items-center justify-center flex-1 mt-6"
               variants={challangeVariantsImage('left')}
             >
-              <Image
+              {/* <Image
                 className="mt-12"
                 src="/get-started.png"
                 alt=""
                 width={600}
                 height={600}
-              />
+              /> */}
             </motion.div>
           </div>
         </motion.div>

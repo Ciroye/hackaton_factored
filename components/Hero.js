@@ -19,16 +19,29 @@ const Hero = () => {
           className="flex-[0.95] flex justify-center flex-col pl-20"
         >
           <h3 className="mb-2 font-extrabold tracking-tight text-7xl font-abril">
-            Factored NLP Datathon
+            Factored NLP 1st Hackathon
           </h3>
           <h4 className="mb-6 text-xl text-principal font-roboto">
-            Data Engineering | Data Analysts | Machine Learning Engineers |
+            Data Engineers | Data Analysts | Machine Learning Engineers |
             Software Engineers
           </h4>
           <p className="mb-6 text-xl text-white font-roboto">
             Calling all the top notch data analytics talent. Join our 2-week
             datathon and showcase your skills delving into a vast dataset of
             Amazon product reviews.
+            <br />
+            <br />
+            Absolutely
+            <a>
+              <span className="font-bold text-principal">
+                {' '}
+                FREE TO PARTICIPATE{' '}
+              </span>
+            </a>
+            , show your data skills and win some great prizes including the
+            opportunity to be
+            <a className="font-bold text-principal"> INTERVIEWED </a>
+            by our top-notch team at factored!
           </p>
           <div className="py-4">
             <div className="grid row-gap-8 sm:grid-cols-3">
@@ -69,13 +82,13 @@ const Hero = () => {
           variants={fadeIn('left', 'tween', 0.1, 1)}
           className="mb-12"
         >
-          <Image
-            src="/hero2.svg"
-            className="w-full "
+          {/* <Image
+            src="/image_2.jpg"
+            className="rounded-xl shadow-xl "
             alt=""
             width={500}
-            height={500}
-          />
+            height={200}
+          /> */}
         </motion.div>
       </motion.div>
     </section>

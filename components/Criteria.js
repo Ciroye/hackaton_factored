@@ -39,13 +39,13 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Teams of up to 4 members are allowed
+              Judging criteria
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              First and foremost, your solution should work and deliver
+              insights, visualizations, etc. Additional grading criteria
+              include:
             </p>
           </div>
 
@@ -68,13 +68,15 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Registration opens on [DATE] and closes on [DATE]
+              Judging criteria
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              <ul className="list-disc list-inside">
+                <li>Problem Understanding and Approach</li>
+                <li>Data Preprocessing and Engineering</li>
+                <li>Data Analysis and Insights</li>
+              </ul>
             </p>
           </div>
 
@@ -97,13 +99,13 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Participation is free
+              Judging criteria
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              <li>Model Building and Performance</li>
+              <li>Innovation and Creativity</li>
+              <li>Presentation and Communication</li>
             </p>
           </div>
 
@@ -132,13 +134,11 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Problem Understanding and Approach
+              Final rounds
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              There will be two rounds to qualify the solutions
             </p>
           </div>
 
@@ -161,13 +161,12 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Data Preprocessing and Engineering
+              Final rounds
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              Code submission round: Each team will have to submit the code
+              within the specified timeline.
             </p>
           </div>
 
@@ -190,13 +189,13 @@ const Criteria = () => {
             </span>
 
             <h1 className="text-xl font-semibold capitalize text-second ">
-              Data Analysis and Insights
+              Final rounds
             </h1>
 
             <p className="text-second ">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              ab nulla quod dignissimos vel non corrupti doloribus voluptatum
-              eveniet
+              Interview Round: Candidates who qualify the code submission round
+              will get the opportunity to be interviewed by the Factored Panel.
+              This round will evaluate technical and business excellence.
             </p>
           </div>
         </motion.div>

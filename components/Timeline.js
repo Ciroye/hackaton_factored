@@ -20,7 +20,7 @@ const Timeline = () => {
           whileInView="show"
           className="items-center sm:flex"
         >
-          <li className="relative mx-4 ">
+          <li className="relative pb-6 mx-4">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -40,21 +40,16 @@ const Timeline = () => {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-semibold text-second">Week 1</h3>
+              <h3 className="text-3xl font-semibold text-second">First</h3>
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second">
-                    • 26/06/2023 - Datathon Kickoff
+                    • 23/06/2023 - Registration Deadline
                   </p>
                 </li>
                 <li className="ml-4">
-                  <p className="mt-6 text-xl font-normal text-second">
-                    • 27/06/2023 - 01/07/2023 - Coding Sessions
-                  </p>
-                </li>
-                <li className="ml-4">
-                  <p className="mt-6 text-xl font-normal text-second">
-                    • 01/07/2023 - Voluntary Checkpoint
+                  <p className="mt-12 text-xl font-normal text-second">
+                    26/06/2023 - Datathon Kickoff
                   </p>
                 </li>
               </ul>
@@ -80,7 +75,7 @@ const Timeline = () => {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-semibold text-second">Week 2</h3>
+              <h3 className="text-3xl font-semibold text-second">Second</h3>
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second">
