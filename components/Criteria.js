@@ -10,196 +10,131 @@ const Criteria = () => {
       variants={staggerContainer}
       id="criteria"
     >
-      <div className="container px-6 py-10 mx-auto">
-        <h2 className="flex justify-center w-full mb-20 text-6xl font-bold text-second font-abril">
-          Registration & Criteria
+      <motion.div
+        className=""
+        initial="hidden"
+        whileInView="show"
+        variants={fadeIn('down', 'tween', 0.1, 1)}
+      >
+        <h2 className="flex justify-center mb-20 text-second text-7xl  font-abril">
+          Criteria & Registration & Details
         </h2>
-        <motion.div
-          className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3"
-          initial="hidden"
-          whileInView="show"
-          variants={fadeIn('down', 'tween', 0.1, 1)}
-        >
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Judging criteria
-            </h1>
-
-            <p className="text-second ">
-              First and foremost, your solution should work and deliver
-              insights, visualizations, etc. Additional grading criteria
-              include:
-            </p>
+        <div className="grid grid-cols-3 gap-x-16 my-16">
+          <div className=" ">
+            <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+              <div className="flex justify-center">
+                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    className="h-7 w-7"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="p-10">
+                <h5 className="mb-4 text-2xl font-bold text-justify	">
+                  Judging Criteria
+                </h5>
+                <p className=" text-lg text-justify 	">
+                  Ensure that your solution works flawlessly and delivers
+                  impactful insights. <br /> Criteria includes problem
+                  understanding, data analysis and modeling, and presentation
+                  skills.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Judging criteria
-            </h1>
-
-            <p className="text-second ">
-              <ul className="list-disc list-inside">
-                <li>Problem Understanding and Approach</li>
-                <li>Data Preprocessing and Engineering</li>
-                <li>Data Analysis and Insights</li>
-              </ul>
-            </p>
+          <div className=" ">
+            <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+              <div className="flex justify-center">
+                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    className="h-7 w-7"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="p-6">
+                <h5 className="mb-4 text-2xl font-bold text-justify">
+                  Registration
+                </h5>
+                <p>
+                  <ul className="list-disc list-inside text-justify py-2">
+                    <li className="text-lg py-2">Teams of up to 4 members,</li>
+                    <li className="text-lg">
+                      Registration closes on 7th of July, 2023.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Judging criteria
-            </h1>
-
-            <p className="text-second ">
-              <li>Model Building and Performance</li>
-              <li>Innovation and Creativity</li>
-              <li>Presentation and Communication</li>
-            </p>
+          <div className="">
+            <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
+              <div className="flex justify-center">
+                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="2"
+                    stroke="currentColor"
+                    className="h-7 w-7"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="p-6">
+                <h5 className="mb-4 text-2xl font-bold">Additional details</h5>
+                <p>
+                  <ul className="list-disc list-inside">
+                    <li className="text-lg py-2">
+                      Code submission round: Each team will have to submit the
+                      code within the specified window.
+                    </li>
+                    <li className="text-lg py-2">
+                      Interview Round: Candidates who qualify will get the
+                      opportunity to display their solution to the Factored
+                      Panel.
+                    </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
           </div>
-
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-                />
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Final rounds
-            </h1>
-
-            <p className="text-second ">
-              There will be two rounds to qualify the solutions
-            </p>
-          </div>
-
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Final rounds
-            </h1>
-
-            <p className="text-second ">
-              Code submission round: Each team will have to submit the code
-              within the specified timeline.
-            </p>
-          </div>
-
-          <div className="space-y-3">
-            <span className="inline-block p-3 bg-blue-100 rounded-full text-sixth ">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                />
-              </svg>
-            </span>
-
-            <h1 className="text-xl font-semibold capitalize text-second ">
-              Final rounds
-            </h1>
-
-            <p className="text-second ">
-              Interview Round: Candidates who qualify the code submission round
-              will get the opportunity to be interviewed by the Factored Panel.
-              This round will evaluate technical and business excellence.
-            </p>
-          </div>
-        </motion.div>
-      </div>
+        </div>
+        <h3 className="text-justify text-lg font-semibold text-second mt-10">
+          * Don't have a team? No problem! Connect with other participants
+          through Slack and create a team. In case of any extra participants,
+          we'll assign or form teams.
+        </h3>
+      </motion.div>
     </motion.section>
   )
 }

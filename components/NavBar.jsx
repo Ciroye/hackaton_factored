@@ -9,7 +9,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <>
-      <div className="flex flex-wrap place-items-center bg-second">
+      <div className="flex flex-wrap place-items-center ">
         <section className="relative mx-auto">
           <motion.nav
             variants={navVariants}
@@ -21,7 +21,7 @@ const Navbar = () => {
               <Image src="/logo2.png" alt="logo" width={120} height={120} />
               <ul className="hidden px-4 mx-auto space-x-12 font-semibold md:flex font-heading">
                 <li>
-                  <a className="text-xl text-white " href="#">
+                  <a className="text-2xl text-white " href="#">
                     <Link
                       activeClass="active"
                       to="hero"
@@ -35,7 +35,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-xl text-white " href="#">
+                  <a className="text-2xl text-white " href="#">
                     <Link
                       activeClass="active"
                       to="challenge"
@@ -49,7 +49,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-xl text-white " href="#">
+                  <a className="text-2xl text-white " href="#">
                     <Link
                       activeClass="active"
                       to="timeline"
@@ -63,7 +63,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-xl text-white " href="#">
+                  <a className="text-2xl text-white " href="#">
                     <Link
                       activeClass="active"
                       to="details"
@@ -77,7 +77,7 @@ const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-xl text-white " href="#">
+                  <a className="text-2xl text-white " href="#">
                     <Link
                       activeClass="active"
                       to="criteria"

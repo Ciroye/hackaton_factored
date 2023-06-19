@@ -36,13 +36,13 @@ const Details = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="flex justify-center"
       >
-        <div className="container flex">
+        <div className="container flex ">
           <motion.div
-            className="w-full space-y-12 lg:w-1/2 "
+            className="w-3/4 space-y-12 mr-14"
             variants={fadeIn('right', 'tween', 0.2, 1)}
           >
             <div>
-              <h2 className="flex w-full mb-10 text-6xl font-bold text-white justify-left font-abril">
+              <h2 className="flex w-full mb-10 font-bold text-white text-7xl justify-left font-abril">
                 What are the details?
               </h2>
               <h1 className="text-xl font-semibold text-white"></h1>
@@ -56,7 +56,7 @@ const Details = () => {
 
             {details.map((detail, index) => (
               <>
-                <div className="flex items-start">
+                <div className="flex items-start" key={index}>
                   <div className="mx-4 mt-0">
                     <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
                       {detail.title}
@@ -70,31 +70,17 @@ const Details = () => {
           </motion.div>
 
           <motion.div
-            className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center"
+            className="flex items-center justify-center w-/2 ml-12"
             variants={challangeVariantsImage('left', 'tween', 0.2, 1)}
           >
-            {/* <Image
-              className="object-cover rounded-[136px]"
-              src="/details.png"
+            <Image
+              className="object-cover rounded-lg"
+              src="/Hackathon04.png"
               alt=""
               width={500}
               height={500}
-            /> */}
+            />
           </motion.div>
-        </div>
-
-        <hr className="my-12 border-gray-200 dark:border-gray-700" />
-
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
-          <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"></div>
-
-          <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"></div>
-
-          <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1"></div>
-
-          <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1"></div>
-
-          <div className="flex items-center justify-center col-span-2 md:col-span-3 lg:col-span-1"></div>
         </div>
       </motion.div>
     </section>

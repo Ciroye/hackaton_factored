@@ -7,68 +7,74 @@ import { staggerContainer, fadeIn } from '../utils/motion'
 
 const Hero = () => {
   return (
-    <section className="container pt-16 mx-auto " id="hero">
+    <section className="container max-w-5xl pt-24 mx-auto " id="hero">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        className="grid items-center grid-cols-2 gap-12 py-12 text-left text-[white]"
+        className="grid items-center grid-cols-1 gap-12  text-left text-[white]"
       >
         <motion.div
-          variants={fadeIn('right', 'tween', 0.1, 1)}
+          variants={fadeIn('right', 'tween', 0.1, 4)}
           className="flex-[0.95] flex justify-center flex-col pl-20"
         >
-          <h3 className="mb-2 font-extrabold tracking-tight text-7xl font-abril">
-            Factored NLP 1st Hackathon
+          <h3 className="mb-2 font-extrabold tracking-tight text-center text-7xl font-abril">
+            Factored 1st Datathon
           </h3>
-          <h4 className="mb-6 text-xl text-principal font-roboto">
+          <h4 className="mb-6 text-2xl text-center text-white font-roboto">
             Data Engineers | Data Analysts | Machine Learning Engineers |
             Software Engineers
           </h4>
-          <p className="mb-6 text-xl text-white font-roboto">
-            Calling all the top notch data analytics talent. Join our 2-week
-            datathon and showcase your skills delving into a vast dataset of
-            Amazon product reviews.
+          <p className="mb-6 text-xl text-center text-white font-roboto">
+            Calling all top-notch data talent! <br /> Join our 2-week datathon
+            and showcase your skills by delving into a vast dataset of Amazon
+            product reviews.
             <br />
             <br />
-            Absolutely
+            It is Absolutely
             <a>
-              <span className="font-bold text-principal">
+              <span className="font-bold text-white">
                 {' '}
                 FREE TO PARTICIPATE{' '}
               </span>
             </a>
             , show your data skills and win some great prizes including the
             opportunity to be
-            <a className="font-bold text-principal"> INTERVIEWED </a>
-            by our top-notch team at factored!
+            <a className="font-bold text-white"> INTERVIEWED </a>
+            by our top-notch team at FACTORED!
           </p>
-          <div className="py-4">
+          <div className="py-8">
             <div className="grid row-gap-8 sm:grid-cols-3">
-              <div className="text-left">
-                <h6 className="text-4xl font-bold text-deep-purple-accent-400">
+              <div className="text-center">
+                <h6 className="text-4xl font-bold text-deep-purple-accent-400 font-abril">
+                  $4000
+                </h6>
+                <p className="text-lg font-bold text-white font-abril">
+                  1st Prize
+                </p>
+              </div>
+              <div className="text-center">
+                <h6 className="text-4xl font-bold text-deep-purple-accent-400 font-abril">
+                  $2000
+                </h6>
+                <p className="text-lg font-bold text-white font-abril ">
+                  2st Prize
+                </p>
+              </div>
+              <div className="text-center">
+                <h6 className="text-4xl font-bold text-deep-purple-accent-400 font-abril">
                   $1000
                 </h6>
-                <p className="font-bold">1st Prize</p>
-              </div>
-              <div className="text-left">
-                <h6 className="text-4xl font-bold text-deep-purple-accent-400">
-                  $750
-                </h6>
-                <p className="font-bold">2st Prize</p>
-              </div>
-              <div className="text-left">
-                <h6 className="text-4xl font-bold text-deep-purple-accent-400">
-                  $500
-                </h6>
-                <p className="font-bold">3st Prize</p>
+                <p className="text-lg font-bold text-white font-abril">
+                  3st Prize
+                </p>
               </div>
             </div>
           </div>
-          <div className="py-8">
+          <div className="flex justify-center pt-6 pb-20">
             <button>
               <a
-                className="px-8 py-3 text-lg font-semibold text-white transition duration-200 rounded-full shadow-md bg-second"
+                className="px-8 py-4 text-xl font-semibold text-center transition duration-200 rounded-full shadow-md text-second bg-fourth"
                 href="https://www.factored.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -77,18 +83,6 @@ const Hero = () => {
               </a>
             </button>
           </div>
-        </motion.div>
-        <motion.div
-          variants={fadeIn('left', 'tween', 0.1, 1)}
-          className="mb-12"
-        >
-          {/* <Image
-            src="/image_2.jpg"
-            className="rounded-xl shadow-xl "
-            alt=""
-            width={500}
-            height={200}
-          /> */}
         </motion.div>
       </motion.div>
     </section>

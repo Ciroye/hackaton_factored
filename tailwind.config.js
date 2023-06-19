@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        abril: ['Abril Display', 'serif'],
+        abril: ['Abril Display'],
         roboto: ['Roboto', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
       },

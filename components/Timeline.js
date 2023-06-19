@@ -11,16 +11,16 @@ const Timeline = () => {
         className="container py-32 mx-auto"
         id="timeline"
       >
-        <h2 className="flex justify-center w-full mb-10 font-bold text-7xl text-second font-abril">
+        <h2 className="flex justify-center w-full font-bold text-7xl text-second font-abril">
           Timeline
         </h2>
         <motion.ol
           variants={fadeIn('up', 'spring', 0.2, 1)}
           initial="hidden"
           whileInView="show"
-          className="items-center sm:flex"
+          className="items-center pb-28 sm:flex"
         >
-          <li className="relative pb-6 mx-4">
+          <li className="relative h-48 pb-6 mx-4">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -40,10 +40,12 @@ const Timeline = () => {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-semibold text-second">First</h3>
+              <h3 className="text-3xl font-semibold text-second font-abril">
+                First
+              </h3>
               <ul>
                 <li className="ml-4">
-                  <p className="mt-6 text-xl font-normal text-second">
+                  <p className="mt-6 text-xl font-normal text-second ">
                     • 23/06/2023 - Registration Deadline
                   </p>
                 </li>
@@ -55,7 +57,7 @@ const Timeline = () => {
               </ul>
             </div>
           </li>
-          <li className="relative pb-6 mx-4">
+          <li className="relative h-48 pb-6 mx-4">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -75,7 +77,9 @@ const Timeline = () => {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-semibold text-second">Second</h3>
+              <h3 className="text-3xl font-semibold text-second font-abril">
+                Second
+              </h3>
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second">
@@ -90,7 +94,7 @@ const Timeline = () => {
               </ul>
             </div>
           </li>
-          <li className="relative mx-4 ">
+          <li className="relative h-48 mx-4 ">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -110,7 +114,7 @@ const Timeline = () => {
               <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-semibold text-second">
+              <h3 className="text-3xl font-semibold text-second font-abril">
                 Subsequent stages
               </h3>
               <ul>
