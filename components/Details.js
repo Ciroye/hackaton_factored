@@ -55,17 +55,15 @@ const Details = () => {
             </div>
 
             {details.map((detail, index) => (
-              <>
-                <div className="flex items-start" key={index}>
-                  <div className="mx-4 mt-0">
-                    <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
-                      {detail.title}
-                    </h1>
+              <div className="flex items-start" key={index}>
+                <div className="mx-4 mt-0">
+                  <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
+                    {detail.title}
+                  </h1>
 
-                    <p className="mt-3 text-white ">{detail.description}</p>
-                  </div>
+                  <p className="mt-3 text-white ">{detail.description}</p>
                 </div>
-              </>
+              </div>
             ))}
           </motion.div>
 

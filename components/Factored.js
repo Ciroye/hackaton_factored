@@ -16,7 +16,7 @@ const Factored = () => {
             data-te-ripple-color="light"
           >
             <Image
-              classNameName="rounded-lg"
+              className="rounded-lg"
               src="/Hackathon02.jpg"
               alt=""
               width={500}

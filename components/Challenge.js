@@ -41,22 +41,21 @@ const Challenge = () => {
             </h2>
             <div className="flex flex-col gap-6 mt-8 mr-8">
               {challengesFeatures.map((feature, index) => (
-                <>
+                <div
+                  className={`flex justify-center items-center flex-row py-2`}
+                  key={index}
+                >
                   <div
-                    className={`flex justify-center items-center flex-row py-2`}
+                    className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
                   >
-                    <div
-                      className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
-                    >
-                      <p className="text-3xl font-bold text-second font-abril">
-                        {index + 1}
-                      </p>
-                    </div>
-                    <p className="flex-1 ml-[30px] font-light	 text-xl text-white  leading-[32.4px]">
-                      {feature}
+                    <p className="text-3xl font-bold text-second font-abril">
+                      {index + 1}
                     </p>
                   </div>
-                </>
+                  <p className="flex-1 ml-[30px] font-light	 text-xl text-white  leading-[32.4px]">
+                    {feature}
+                  </p>
+                </div>
               ))}
             </div>
           </motion.div>
