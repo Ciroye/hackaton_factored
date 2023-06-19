@@ -46,12 +46,12 @@ const Timeline = () => {
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second ">
-                    • 23/06/2023 - Registration Deadline
+                    • 07/07/2023 - Registration Deadline
                   </p>
                 </li>
                 <li className="ml-4">
                   <p className="mt-12 text-xl font-normal text-second">
-                    26/06/2023 - Datathon Kickoff
+                    • 10/07/2023 - Datathon Kickoff
                   </p>
                 </li>
               </ul>
@@ -83,12 +83,12 @@ const Timeline = () => {
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second">
-                    • 03/07/2023 - 08/07/2023 - Coding Sessions
+                    • 10/07/2023 - 24/07/2023 - Coding Sessions
                   </p>
                 </li>
                 <li className="ml-4">
                   <p className="mt-12 text-xl font-normal text-second">
-                    • 08/07/2023 - Last date for code submission
+                    • 24/07/2023 - Last date for code submission
                   </p>
                 </li>
               </ul>

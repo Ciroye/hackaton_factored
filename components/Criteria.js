@@ -17,7 +17,7 @@ const Criteria = () => {
         variants={fadeIn('down', 'tween', 0.1, 1)}
       >
         <h2 className="flex justify-center mb-20 text-second text-7xl  font-abril">
-          Criteria & Registration & Details
+          Criteria & Registration
         </h2>
         <div className="grid grid-cols-3 gap-x-16 my-16">
           <div className=" ">

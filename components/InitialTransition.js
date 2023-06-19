@@ -22,6 +22,7 @@ const blackBox = {
   },
   animate: {
     height: 0,
+    y: -1200,
     transition: {
       when: 'afterChildren',
       duration: 1.5,
@@ -87,13 +88,13 @@ const InitialTransition = () => {
             />
           </pattern>
           <text
-            className="text-4xl font-bold"
+            className="text-2xl font-bold"
             textAnchor="middle"
             x="50%"
             y="50%"
             style={{ fill: 'url(#pattern)' }}
           >
-            Factored
+            Factored 1st Datathon
           </text>
         </motion.svg>
       </motion.div>

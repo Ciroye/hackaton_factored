@@ -13,7 +13,7 @@ const Details = () => {
     {
       title: 'Where?',
       description:
-        "The hackathon will take place online. Over [Discord, Slack], you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
+        "The hackathon will take place online. Over Slack you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
     },
     {
       title: 'Who?',
@@ -23,7 +23,7 @@ const Details = () => {
     {
       title: 'How?',
       description:
-        'The hackathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our [Discord, Slack] community to stay updated on real-time hackathon news and logistics. Communicate with your team through any platform of your choice.',
+        'The hackathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our Slack community to stay updated on real-time hackathon news and logistics. Communicate with your team through any platform of your choice.',
     },
   ]
 

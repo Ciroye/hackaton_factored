@@ -58,7 +58,7 @@ const Hero = () => {
                   $2000
                 </h6>
                 <p className="text-lg font-bold text-white font-abril ">
-                  2st Prize
+                  2nd Prize
                 </p>
               </div>
               <div className="text-center">
@@ -66,7 +66,7 @@ const Hero = () => {
                   $1000
                 </h6>
                 <p className="text-lg font-bold text-white font-abril">
-                  3st Prize
+                  3rd Prize
                 </p>
               </div>
             </div>
