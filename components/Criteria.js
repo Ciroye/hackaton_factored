@@ -130,9 +130,9 @@ const Criteria = () => {
           </div>
         </div>
         <h3 className="text-justify text-lg font-semibold text-second mt-10">
-          * Don't have a team? No problem! Connect with other participants
+          * Don&#39;t have a team? No problem! Connect with other participants
           through Slack and create a team. In case of any extra participants,
-          we'll assign or form teams.
+          we&#39;ll assign or form teams.
         </h3>
       </motion.div>
     </motion.section>
