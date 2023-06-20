@@ -19,7 +19,7 @@ export default function Home() {
         <NavBar />
         <div className="relative z-0 ">
           <Hero />
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
         </div>
       </div>
       <div className="bg-second">
