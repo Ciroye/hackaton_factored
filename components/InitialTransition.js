@@ -34,6 +34,7 @@ const blackBox = {
 const textContainer = {
   initial: {
     opacity: 1,
+    width: '100%',
   },
   animate: {
     opacity: 0,
@@ -79,16 +80,16 @@ const InitialTransition = () => {
             patternUnits="userSpaceOnUse"
             width={750}
             height={800}
-            className="text-white w-12 h-12"
+            className="text-white"
           >
             <rect className="w-full h-full fill-current" />
             <motion.rect
               variants={text}
-              className="w-full h-full text-gray-600 fill-current"
+              className="w-full h-full text-letter fill-current"
             />
           </pattern>
           <text
-            className="text-2xl font-bold"
+            className="text-5xl font-bold"
             textAnchor="middle"
             x="50%"
             y="50%"

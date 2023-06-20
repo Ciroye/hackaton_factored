@@ -13,7 +13,7 @@ const Details = () => {
     {
       title: 'Where?',
       description:
-        "The hackathon will take place online. Over Slack you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
+        "The datathon will take place online. Over Slack you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
     },
     {
       title: 'Who?',
@@ -23,7 +23,7 @@ const Details = () => {
     {
       title: 'How?',
       description:
-        'The hackathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our Slack community to stay updated on real-time hackathon news and logistics. Communicate with your team through any platform of your choice.',
+        'The datathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our Slack community to stay updated on real-time datathon news and logistics. Communicate with your team through any platform of your choice.',
     },
   ]
 
@@ -38,11 +38,11 @@ const Details = () => {
       >
         <div className="container flex ">
           <motion.div
-            className="w-3/4 space-y-12 mr-14"
+            className="w-3/4 space-y-12 mr-20 max-w-3xl"
             variants={fadeIn('right', 'tween', 0.2, 1)}
           >
             <div>
-              <h2 className="flex w-full mb-10 font-bold text-white text-7xl justify-left font-abril">
+              <h2 className="flex w-full mb-10 font-bold text-white text-6xl justify-left font-abril">
                 What are the details?
               </h2>
               <h1 className="text-xl font-semibold text-white"></h1>
@@ -60,7 +60,6 @@ const Details = () => {
                   <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
                     {detail.title}
                   </h1>
-
                   <p className="mt-3 text-white ">{detail.description}</p>
                 </div>
               </div>

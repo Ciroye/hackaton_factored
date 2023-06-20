@@ -33,15 +33,13 @@ const Hero = () => {
             <br />
             It is Absolutely
             <a>
-              <span className="font-bold text-white">
-                {' '}
-                FREE TO PARTICIPATE{' '}
-              </span>
+              <span className="font-bold text-white"> FREE TO PARTICIPATE</span>
             </a>
             , show your data skills and win some great prizes including the
             opportunity to be
             <a className="font-bold text-white"> INTERVIEWED </a>
-            by our top-notch team at FACTORED!
+            by our top-notch team at{' '}
+            <a className="font-bold text-white">FACTORED!</a>
           </p>
           <div className="py-8">
             <div className="grid row-gap-8 sm:grid-cols-3">

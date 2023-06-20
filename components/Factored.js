@@ -1,25 +1,36 @@
 import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import {
+  challangeVariantsImage,
+  staggerContainer,
+  fadeIn,
+} from '@/utils/motion'
 
 const Factored = () => {
   return (
-    <section className="container mx-20">
-      <motion.div className="flex flex-wrap items-center py-20">
-        <h2 className="flex w-full pb-6 font-extrabold text-white text-7xl justify-center font-abril">
-          About Factored
-        </h2>
-        <div className="mb-12 shrink-0 grow-0 basis-auto w-5/12 my-20">
+    <section className="container mx-auto">
+      <motion.div
+        className="flex flex-wrap items-center py-20"
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+      >
+        <motion.div
+          className="mb-12 shrink-0 grow-0 basis-auto w-5/12 my-20"
+          variants={challangeVariantsImage('up', 'tween', 0.2, 1)}
+        >
           <div
             className="relative overflow-hidden rounded-lg  bg-no-repeat shadow-lg"
             data-te-ripple-init
             data-te-ripple-color="light"
           >
             <Image
-              className="rounded-lg"
+              className="rounded-lg h-[600px]"
               src="/Hackathon02.jpg"
               alt=""
-              width={500}
+              width={700}
               height={800}
             />
             <a href="https://factored.ai/">
@@ -39,9 +50,15 @@ const Factored = () => {
               </div>
             </a>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="shrink-0 grow-0 basis-auto px-6 w-7/12 mt-20 pl-20">
+        <motion.div
+          className="shrink-0 grow-0 basis-auto px-6 w-7/12 mt-2 pl-20 max-w-3xl"
+          variants={fadeIn('left', 'tween', 0.2, 1)}
+        >
+          <h2 className="flex w-full pb-10 font-extrabold text-white text-7xl font-abril ">
+            About Factored
+          </h2>
           <div className="mb-12 flex">
             <div className="shrink-0">
               <div className="rounded-md p-4 shadow-lg bg-fourth ">
@@ -136,7 +153,7 @@ const Factored = () => {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </motion.div>
     </section>
   )
