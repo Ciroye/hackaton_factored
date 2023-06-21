@@ -40,7 +40,7 @@ const Challenge = () => {
               different industries, and your team will represent a product
               company&#39;s data team. Your team will develop an end-to-end data
               product that is able to analyze all product reviews and generate
-              actionable insights to inform stakeholders’ decisions.
+              actionable insights to inform stakeholders&#39; decisions.
             </h2>
             <div className="flex flex-col gap-6 mt-6 mr-8">
               <div className={`flex justify-center items-center flex-row `}>

@@ -49,8 +49,8 @@ const Details = () => {
                   >
                     Slack
                   </a>
-                  , you'll have the opportunity to connect with other
-                  participants and Factored Experts. We'll also be hosting
+                  , you&#39;ll have the opportunity to connect with other
+                  participants and Factored Experts. We&#39;ll also be hosting
                   workshops, keynotes, and mentoring sessions.
                 </p>
               </div>
