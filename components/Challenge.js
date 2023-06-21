@@ -10,12 +10,6 @@ import {
 } from '../utils/motion'
 
 const Challenge = () => {
-  const challengesFeatures = [
-    'Extracting data from multiple sources, harmonizing datasets, and automating data transformation.',
-    'Exploring and visualizing correlations, selecting vital features, and experimenting with machine learning models.',
-    'Addressing data issues, analyzing key parameters, visualizing insights, and selecting relevant KPIs.    ',
-  ]
-
   return (
     <section className="container mx-auto" id="challenge">
       <div className="py-20">
@@ -36,34 +30,62 @@ const Challenge = () => {
             <h2 className={`text-xl text-white font-abril leading-[38px] `}>
               Join us to create innovative data solutions (web apps, chatbots,
               dashboards, model interfaces...) that empower businesses by
-              generating insights from product reviews to address problems like
-              product optimization, and marketing budget allocation.
+              generating insights from product reviews.Ideally, these data
+              products will help solve a wide range of business problems, like
+              product optimization, marketing budget allocation, and many
+              others!
               <br />
               <br />
-              You will receive Amazon reviews from various products in different
-              industries, and your team will represent a product company&#39;s
-              data team. Your team will develop an end-to-end data product that
-              is able to analyze all product reviews and generate actionable
-              insights to inform stakeholders’ decisions.
+              You will receive a set of Amazon reviews from various products in
+              different industries, and your team will represent a product
+              company&#39;s data team. Your team will develop an end-to-end data
+              product that is able to analyze all product reviews and generate
+              actionable insights to inform stakeholders’ decisions.
             </h2>
-            <div className="flex flex-col gap-6 mt-8 mr-8">
-              {challengesFeatures.map((feature, index) => (
+            <div className="flex flex-col gap-6 mt-6 mr-8">
+              <div className={`flex justify-center items-center flex-row `}>
                 <div
-                  className={`flex justify-center items-center flex-row py-2`}
-                  key={index}
+                  className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
                 >
-                  <div
-                    className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
-                  >
-                    <p className="text-3xl font-bold text-second font-abril">
-                      {index + 1}
-                    </p>
-                  </div>
-                  <p className="flex-1 ml-[30px] font-light	 text-xl text-white  leading-[32.4px]">
-                    {feature}
-                  </p>
+                  <span className="text-3xl font-bold text-second font-abril">
+                    1
+                  </span>
                 </div>
-              ))}
+                <p className="flex-1 ml-[30px] font-light	 text-lg text-white leading-[32.4px]">
+                  <strong>Data Engineering:</strong> Extracting data from
+                  multiple sources, harmonizing datasets, and automating data
+                  transformation. Be prepared to work with streaming data as
+                  well.
+                </p>
+              </div>
+              <div className={`flex justify-center items-center flex-row `}>
+                <div
+                  className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
+                >
+                  <span className="text-3xl font-bold text-second font-abril">
+                    2
+                  </span>
+                </div>
+                <p className="flex-1 ml-[30px] font-light	 text-lg text-white leading-[32.4px]">
+                  <strong>Machine Learning:</strong> Exploring and visualizing
+                  correlations, selecting vital features, and experimenting with
+                  machine learning models.
+                </p>
+              </div>
+              <div className={`flex justify-center items-center flex-row `}>
+                <div
+                  className={`flex justify-center items-center w-[70px] h-[70px] rounded-[24px] bg-fourth`}
+                >
+                  <span className="text-3xl font-bold text-second font-abril">
+                    3
+                  </span>
+                </div>
+                <p className="flex-1 ml-[30px] font-light	 text-lg text-white leading-[32.4px]">
+                  <strong> Data Analytics:</strong> Addessing data quality
+                  issues, analyzing key parameters, visualizing insights, and
+                  selecting relevant KPIs.
+                </p>
+              </div>
             </div>
           </motion.div>
           <div>

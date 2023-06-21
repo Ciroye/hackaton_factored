@@ -9,24 +9,6 @@ import {
 } from '../utils/motion'
 
 const Details = () => {
-  const details = [
-    {
-      title: 'Where?',
-      description:
-        "The datathon will take place online. Over Slack you'll have the opportunity to connect with other participants and Factored Experts. We'll also be hosting workshops, keynotes, and mentoring sessions.",
-    },
-    {
-      title: 'Who?',
-      description:
-        'We welcome anyone with experience and/or interest in data analytics in any field related to Machine Learning, Software Engineering, Data Engineering, and Data Analytics.',
-    },
-    {
-      title: 'How?',
-      description:
-        'The datathon spans over two weeks (see the Timeline section). Code commit windows will be available daily for you to push your changes to GitHub between XX:XX and XX:XX. Join our Slack community to stay updated on real-time datathon news and logistics. Communicate with your team through any platform of your choice.',
-    },
-  ]
-
   return (
     <section className="container py-32 mx-auto" id="details">
       <motion.div
@@ -38,11 +20,11 @@ const Details = () => {
       >
         <div className="container flex ">
           <motion.div
-            className="w-3/4 space-y-12 mr-20 max-w-3xl"
+            className="w-3/4 max-w-3xl mr-20 space-y-12"
             variants={fadeIn('right', 'tween', 0.2, 1)}
           >
             <div>
-              <h2 className="flex w-full mb-10 font-bold text-white text-6xl justify-left font-abril">
+              <h2 className="flex w-full mb-10 text-6xl font-bold text-white justify-left font-abril">
                 What are the details?
               </h2>
               <h1 className="text-xl font-semibold text-white"></h1>
@@ -54,20 +36,62 @@ const Details = () => {
               </div>
             </div>
 
-            {details.map((detail, index) => (
-              <div className="flex items-start" key={index}>
-                <div className="mx-4 mt-0">
-                  <h1 className="w-auto max-w-[100px] text-xl font-semibold text-second bg-fourth text-center rounded-md">
-                    {detail.title}
-                  </h1>
-                  <p className="mt-3 text-white ">{detail.description}</p>
-                </div>
+            <div className="flex items-start">
+              <div className="mx-4 mt-0">
+                <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
+                  Where?
+                </h1>
+                <p className="mt-3 text-white ">
+                  The hackathon will take place online. Over{' '}
+                  <a
+                    className="text-lg text-fourth"
+                    href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
+                  >
+                    Slack
+                  </a>
+                  , you'll have the opportunity to connect with other
+                  participants and Factored Experts. We'll also be hosting
+                  workshops, keynotes, and mentoring sessions.
+                </p>
               </div>
-            ))}
+            </div>
+            <div className="flex items-start">
+              <div className="mx-4 mt-0">
+                <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
+                  Who?
+                </h1>
+                <p className="mt-3 text-white ">
+                  We welcome anyone with experience and/or interest in data in
+                  any field related to Machine Learning, Software Engineering,
+                  Data Engineering, and Data Analytics.
+                </p>
+              </div>
+            </div>
+            <div className="flex items-start">
+              <div className="mx-4 mt-0">
+                <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
+                  How?
+                </h1>
+                <p className="mt-3 text-white ">
+                  The hackathon spans over two weeks (see the Timeline section).
+                  Code commit windows will be available daily for you to push
+                  your changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
+                  <a
+                    className="text-lg text-fourth"
+                    href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
+                  >
+                    Slack
+                  </a>{' '}
+                  workspace to stay updated on real-time hackathon news and
+                  logistics. Communicate with your team through any platform of
+                  your choice
+                </p>
+              </div>
+            </div>
           </motion.div>
 
           <motion.div
-            className="flex items-center justify-center w-/2 ml-12"
+            className="flex items-center justify-center ml-12 w-/2"
             variants={challangeVariantsImage('left', 'tween', 0.2, 1)}
           >
             <Image

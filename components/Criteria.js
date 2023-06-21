@@ -16,14 +16,14 @@ const Criteria = () => {
         whileInView="show"
         variants={fadeIn('down', 'tween', 0.1, 1)}
       >
-        <h2 className="flex justify-center mb-20 text-second text-7xl  font-abril">
+        <h2 className="flex justify-center mb-20 text-second text-7xl font-abril">
           Criteria & Registration
         </h2>
-        <div className="grid grid-cols-3 gap-x-16 my-16">
-          <div className=" ">
+        <div className="grid grid-cols-3 my-16 gap-x-16">
+          <div className="">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                <div className="inline-block p-4 -mt-8 rounded-full shadow-md bg-fifth text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -41,10 +41,10 @@ const Criteria = () => {
                 </div>
               </div>
               <div className="p-10">
-                <h5 className="mb-4 text-2xl font-bold text-justify	">
+                <h5 className="mb-4 text-2xl font-bold text-justify ">
                   Judging Criteria
                 </h5>
-                <p className=" text-lg text-justify 	">
+                <p className="text-lg text-justify ">
                   Ensure that your solution works flawlessly and delivers
                   impactful insights. <br /> Criteria includes problem
                   understanding, data analysis and modeling, and presentation
@@ -54,10 +54,10 @@ const Criteria = () => {
             </div>
           </div>
 
-          <div className=" ">
+          <div className="">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                <div className="inline-block p-4 -mt-8 rounded-full shadow-md bg-fifth text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -79,8 +79,8 @@ const Criteria = () => {
                   Registration
                 </h5>
                 <p>
-                  <ul className="list-disc list-inside text-justify py-2">
-                    <li className="text-lg py-2">Teams of up to 4 members,</li>
+                  <ul className="py-2 text-justify list-disc list-inside">
+                    <li className="py-2 text-lg">Teams of up to 4 members,</li>
                     <li className="text-lg">
                       Registration closes on 7th of July, 2023.
                     </li>
@@ -93,7 +93,7 @@ const Criteria = () => {
           <div className="">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] ">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full bg-fifth p-4 text-primary shadow-md">
+                <div className="inline-block p-4 -mt-8 rounded-full shadow-md bg-fifth text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -114,11 +114,11 @@ const Criteria = () => {
                 <h5 className="mb-4 text-2xl font-bold">Additional details</h5>
                 <p>
                   <ul className="list-disc list-inside">
-                    <li className="text-lg py-2">
+                    <li className="py-2 text-lg">
                       Code submission round: Each team will have to submit the
                       code within the specified window.
                     </li>
-                    <li className="text-lg py-2">
+                    <li className="py-2 text-lg">
                       Interview Round: Candidates who qualify will get the
                       opportunity to display their solution to the Factored
                       Panel.
@@ -129,10 +129,17 @@ const Criteria = () => {
             </div>
           </div>
         </div>
-        <h3 className="text-justify text-lg font-semibold text-second mt-10">
+        <h3 className="mt-10 text-lg font-semibold text-justify text-second">
           * Don&#39;t have a team? No problem! Connect with other participants
-          through Slack and create a team. In case of any extra participants,
-          we&#39;ll assign or form teams.
+          through{' '}
+          <a
+            className="text-lg text-white"
+            href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
+          >
+            Slack
+          </a>{' '}
+          and create a team. In case of any extra participants, we&#39;ll assign
+          or form teams.
         </h3>
       </motion.div>
     </motion.section>

@@ -10,6 +10,8 @@ import Footer from '@/components/Footer'
 import StarsCanvas from '@/components/Starts'
 import Factored from '@/components/Factored'
 import InitialTransition from '@/components/InitialTransition'
+import 'bootstrap/dist/css/bootstrap.css'
+import { useEffect } from 'react'
 
 export default function Home() {
   return (

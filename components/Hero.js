@@ -2,12 +2,12 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import { staggerContainer, fadeIn } from '../utils/motion'
+import GoogleForm from './GoogleForm'
 
 const Hero = () => {
   return (
-    <section className="container max-w-5xl pt-24 mx-auto " id="hero">
+    <section className="container max-w-5xl pt-20 mx-auto " id="hero">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -26,9 +26,9 @@ const Hero = () => {
             Software Engineers
           </h4>
           <p className="mb-6 text-xl text-center text-white font-roboto">
-            Calling all top-notch data talent! <br /> Join our 2-week datathon
-            and showcase your skills by delving into a vast dataset of Amazon
-            product reviews.
+            Calling all top-notch data talent! <br /> Join the biggest datathon
+            in the Americas and showcase your skills by delving into a vast
+            dataset of Amazon product reviews.
             <br />
             <br />
             It is Absolutely
@@ -70,16 +70,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center pt-6 pb-20">
-            <button>
-              <a
-                className="px-8 py-4 text-xl font-semibold text-center transition duration-200 rounded-full shadow-md text-second bg-fourth"
-                href="https://www.factored.ai/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Register Now
-              </a>
-            </button>
+            <GoogleForm />
           </div>
         </motion.div>
       </motion.div>
