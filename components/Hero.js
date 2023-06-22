@@ -73,7 +73,14 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center pt-6 pb-20">
-            <GoogleForm />
+            {/* <GoogleForm /> */}
+            <a
+              className="px-8 py-3 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth"
+              onClick={() => {}}
+              type="button"
+            >
+              Register Now
+            </a>
           </div>
         </motion.div>
       </motion.div>
