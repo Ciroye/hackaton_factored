@@ -13,6 +13,7 @@
         "@react-three/drei": "^9.74.16",
         "@react-three/fiber": "^8.13.3",
         "autoprefixer": "10.4.14",
+        "bootstrap": "^5.3.0",
         "eslint": "8.41.0",
         "eslint-config-next": "13.4.3",
         "framer-motion": "^10.12.16",
