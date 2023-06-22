@@ -133,7 +133,7 @@ const Criteria = () => {
           * Don&#39;t have a team? No problem! Connect with other participants
           through{' '}
           <a
-            className="text-lg text-white"
+            className="text-lg text-white no-underline"
             href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
           >
             Slack

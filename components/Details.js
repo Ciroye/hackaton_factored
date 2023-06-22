@@ -44,7 +44,7 @@ const Details = () => {
                 <p className="mt-3 text-white ">
                   The hackathon will take place online. Over{' '}
                   <a
-                    className="text-lg text-fourth"
+                    className="text-lg no-underline text-fourth"
                     href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
                   >
                     Slack
@@ -77,7 +77,7 @@ const Details = () => {
                   Code commit windows will be available daily for you to push
                   your changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
                   <a
-                    className="text-lg text-fourth"
+                    className="text-lg no-underline text-fourth"
                     href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
                   >
                     Slack

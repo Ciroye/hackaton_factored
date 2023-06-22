@@ -85,7 +85,7 @@ const InitialTransition = () => {
             <rect className="w-full h-full fill-current" />
             <motion.rect
               variants={text}
-              className="w-full h-full text-letter fill-current"
+              className="w-full h-full fill-current text-letter"
             />
           </pattern>
           <text
@@ -95,7 +95,7 @@ const InitialTransition = () => {
             y="50%"
             style={{ fill: 'url(#pattern)' }}
           >
-            Factored 1st Datathon
+            Factored Datathon 2023
           </text>
         </motion.svg>
       </motion.div>
