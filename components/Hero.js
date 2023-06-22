@@ -15,7 +15,7 @@ const Hero = () => {
         className="grid items-center grid-cols-1 gap-12  text-left text-[white]"
       >
         <motion.div
-          variants={fadeIn('right', 'tween', 0.1, 3)}
+          variants={fadeIn('right', 'tween', 0.1, 4)}
           className="flex-[0.95] flex justify-center flex-col pl-20"
         >
           <h3 className="mb-2 font-extrabold tracking-tight text-center text-7xl font-abril">
@@ -73,14 +73,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center pt-6 pb-20">
-            {/* <GoogleForm /> */}
-            <a
-              className="px-8 py-3 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth"
-              onClick={() => {}}
-              type="button"
-            >
-              Register Now
-            </a>
+            <GoogleForm />
           </div>
         </motion.div>
       </motion.div>
