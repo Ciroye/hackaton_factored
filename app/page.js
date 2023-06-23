@@ -15,6 +15,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 export default function Home() {
   return (
     <div className="mx-auto">
+      <link rel="icon" href="/favicon.ico" />
       <div className="relative z-0 bg-[url(https://i.ibb.co/dtWWrrZ/Hackathon-1.png)] bg-no-repeat bg-center bg-cover ">
         <InitialTransition />
         <NavBar />
