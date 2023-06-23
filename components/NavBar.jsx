@@ -1,6 +1,7 @@
 'use client'
 
 import React from 'react'
+import { Link as Nextlink } from 'next/link'
 import { motion } from 'framer-motion'
 import { navVariants } from '../utils/motion'
 import { Link, animateScroll as scroll } from 'react-scroll'
@@ -18,77 +19,74 @@ const Navbar = () => {
             className="flex justify-between w-screen "
           >
             <div className="flex items-center w-full px-5 py-6 xl:px-12">
-              <Image src="/logo2.png" alt="logo" width={120} height={120} />
+              <a href="https://factored.ai/" target="_blank">
+                <Image src="/logo2.png" alt="logo" width={120} height={120} />
+              </a>
               <ul className="hidden px-4 mx-auto space-x-12 font-semibold md:flex font-heading">
                 <li>
-                  <a className="text-2xl text-white no-underline " href="#">
-                    <Link
-                      activeClass="active"
-                      to="hero"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Home
-                    </Link>
-                  </a>
+                  <Link
+                    activeClass="active"
+                    className="text-2xl text-white no-underline cursor-pointer "
+                    to="hero"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-2xl text-white no-underline " href="#">
-                    <Link
-                      activeClass="active"
-                      to="challenge"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Challenge
-                    </Link>
-                  </a>
+                  <Link
+                    activeClass="active"
+                    className="text-2xl text-white no-underline cursor-pointer "
+                    to="challenge"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Challenge
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-2xl text-white no-underline " href="#">
-                    <Link
-                      activeClass="active"
-                      to="timeline"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Timeline
-                    </Link>{' '}
-                  </a>
+                  <Link
+                    activeClass="active"
+                    className="text-2xl text-white no-underline cursor-pointer "
+                    to="timeline"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Timeline
+                  </Link>{' '}
                 </li>
                 <li>
-                  <a className="text-2xl text-white no-underline " href="#">
-                    <Link
-                      activeClass="active"
-                      to="details"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Details
-                    </Link>
-                  </a>
+                  <Link
+                    activeClass="active"
+                    className="text-2xl text-white no-underline cursor-pointer "
+                    to="details"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Details
+                  </Link>
                 </li>
                 <li>
-                  <a className="text-2xl text-white no-underline " href="#">
-                    <Link
-                      activeClass="active"
-                      to="criteria"
-                      spy={true}
-                      smooth={true}
-                      offset={-70}
-                      duration={500}
-                    >
-                      Criteria
-                    </Link>
-                  </a>
+                  <Link
+                    activeClass="active"
+                    className="text-2xl text-white no-underline cursor-pointer "
+                    to="criteria"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Criteria
+                  </Link>
                 </li>
               </ul>
             </div>

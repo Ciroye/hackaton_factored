@@ -8,7 +8,7 @@ const Timeline = () => {
     <>
       <motion.section
         variants={staggerContainer}
-        className="container py-32 mx-auto"
+        className="md:container md:py-32 py-12 mx-auto"
         id="timeline"
       >
         <h2 className="flex justify-center w-full font-bold text-7xl text-second font-abril">
@@ -18,9 +18,9 @@ const Timeline = () => {
           variants={fadeIn('up', 'spring', 0.2, 1)}
           initial="hidden"
           whileInView="show"
-          className="items-center pb-28 sm:flex"
+          className="items-center pb-28 pl-0 md:px-8 sm:flex"
         >
-          <li className="relative h-48 pb-6 mx-4">
+          <li className="relative md:h-48 pb-6 mx-4">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -37,9 +37,9 @@ const Timeline = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
+              <div className="md:flex w-full bg-gray-200 h-0.5"></div>
             </div>
-            <div className="mt-3 sm:pr-8">
+            <div className="mt-3 md:pr-8">
               <h3 className="text-3xl font-semibold text-second font-abril">
                 First
               </h3>
@@ -57,7 +57,7 @@ const Timeline = () => {
               </ul>
             </div>
           </li>
-          <li className="relative h-48 pb-6 mx-4">
+          <li className="relative md:h-48 pb-6 mx-4">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -74,7 +74,7 @@ const Timeline = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
+              <div className="flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-3xl font-semibold text-second font-abril">
@@ -111,7 +111,7 @@ const Timeline = () => {
                   ></path>
                 </svg>
               </div>
-              <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
+              <div className="flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-3xl font-semibold text-second font-abril">

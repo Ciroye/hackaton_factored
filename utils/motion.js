@@ -14,14 +14,14 @@ export const navVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 1.5,
+      delay: 1,
     },
   },
 }
 
 export const challangeVariantsImage = (direction) => ({
   hidden: {
-    x: direction === 'left' ? 1000 : -1000,
+    x: direction === 'left' ? '100%' : '-500%',
     rotate: 120,
   },
   show: {
@@ -29,7 +29,7 @@ export const challangeVariantsImage = (direction) => ({
     rotate: 0,
     transition: {
       type: 'spring',
-      duration: 1,
+      duration: 1.8,
       delay: 0.5,
     },
   },

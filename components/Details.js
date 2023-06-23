@@ -18,9 +18,9 @@ const Details = () => {
         viewport={{ once: false, amount: 0.25 }}
         className="flex justify-center"
       >
-        <div className="container flex ">
+        <div className="container md:flex ">
           <motion.div
-            className="w-3/4 max-w-3xl mr-20 space-y-12"
+            className="max-w-3xl space-y-12 md:w-3/4 md:mr-20"
             variants={fadeIn('right', 'tween', 0.2, 1)}
           >
             <div>
@@ -36,12 +36,12 @@ const Details = () => {
               </div>
             </div>
 
-            <div className="flex items-start">
+            <div className="flex ">
               <div className="mx-4 mt-0">
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   Where?
                 </h1>
-                <p className="mt-3 text-white ">
+                <p className="mt-3 text-white font-abril text-xl">
                   The hackathon will take place online. Over{' '}
                   <a
                     className="text-lg no-underline text-fourth"
@@ -60,7 +60,7 @@ const Details = () => {
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   Who?
                 </h1>
-                <p className="mt-3 text-white ">
+                <p className="mt-3 text-white font-abril text-xl ">
                   We welcome anyone with experience and/or interest in data in
                   any field related to Machine Learning, Software Engineering,
                   Data Engineering, and Data Analytics.
@@ -72,7 +72,7 @@ const Details = () => {
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   How?
                 </h1>
-                <p className="mt-3 text-white ">
+                <p className="mt-3 text-white font-abril text-xl ">
                   The hackathon spans over two weeks (see the Timeline section).
                   Code commit windows will be available daily for you to push
                   your changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
@@ -91,8 +91,8 @@ const Details = () => {
           </motion.div>
 
           <motion.div
-            className="flex items-center justify-center ml-12 w-/2"
-            variants={challangeVariantsImage('left', 'tween', 0.2, 1)}
+            className="items-center justify-center hidden ml-12 md:flex w-/2 mt-24"
+            variants={challangeVariantsImage('right', 'tween', 0.2, 1)}
           >
             <Image
               className="object-cover rounded-lg"

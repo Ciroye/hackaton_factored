@@ -9,7 +9,7 @@ const closeSection = {
     height: 0,
     transition: {
       when: 'afterChildren',
-      duration: 3.2,
+      duration: 3,
       ease: [0.87, 0, 0.13, 1],
     },
   },

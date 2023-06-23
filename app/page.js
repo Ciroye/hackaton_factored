@@ -11,11 +11,10 @@ import StarsCanvas from '@/components/Starts'
 import Factored from '@/components/Factored'
 import InitialTransition from '@/components/InitialTransition'
 import 'bootstrap/dist/css/bootstrap.css'
-import { useEffect } from 'react'
 
 export default function Home() {
   return (
-    <div>
+    <div className="mx-auto">
       <div className="relative z-0 bg-[url(https://i.ibb.co/dtWWrrZ/Hackathon-1.png)] bg-no-repeat bg-center bg-cover ">
         <InitialTransition />
         <NavBar />
