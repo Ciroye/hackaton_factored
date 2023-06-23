@@ -89,7 +89,7 @@ const InitialTransition = () => {
             />
           </pattern>
           <text
-            className="text-5xl font-bold"
+            className="text-2xl font-bold md:text-5xl"
             textAnchor="middle"
             x="50%"
             y="50%"
