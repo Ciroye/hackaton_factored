@@ -8,7 +8,7 @@ const Timeline = () => {
     <>
       <motion.section
         variants={staggerContainer}
-        className="md:container md:py-32 py-12 mx-auto"
+        className="py-12 mx-auto md:container md:py-32"
         id="timeline"
       >
         <h2 className="flex justify-center w-full font-bold text-7xl text-second font-abril">
@@ -18,9 +18,9 @@ const Timeline = () => {
           variants={fadeIn('up', 'spring', 0.2, 1)}
           initial="hidden"
           whileInView="show"
-          className="items-center pb-28 pl-0 md:px-8 sm:flex"
+          className="items-center pl-0 pb-28 md:px-8 sm:flex"
         >
-          <li className="relative md:h-48 pb-6 mx-4">
+          <li className="relative pb-6 mx-4 md:h-48">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -41,23 +41,23 @@ const Timeline = () => {
             </div>
             <div className="mt-3 md:pr-8">
               <h3 className="text-3xl font-semibold text-second font-abril">
-                First
+                Registration and kickof
               </h3>
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second ">
-                    • 07/07/2023 - Registration Deadline
+                    • 14/07/2023 - Registration Deadline
                   </p>
                 </li>
                 <li className="ml-4">
                   <p className="mt-12 text-xl font-normal text-second">
-                    • 10/07/2023 - Datathon Kickoff
+                    • 17/07/2023 - Datathon Kickoff
                   </p>
                 </li>
               </ul>
             </div>
           </li>
-          <li className="relative md:h-48 pb-6 mx-4">
+          <li className="relative pb-6 mx-4 md:h-48">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full ring-0 ring-whit ">
                 <svg
@@ -78,17 +78,17 @@ const Timeline = () => {
             </div>
             <div className="mt-3 sm:pr-8">
               <h3 className="text-3xl font-semibold text-second font-abril">
-                Second
+                Coding sessions
               </h3>
               <ul>
                 <li className="ml-4">
                   <p className="mt-6 text-xl font-normal text-second">
-                    • 10/07/2023 - 24/07/2023 - Coding Sessions
+                    • 17/07/2023 - 28/07/2023 - Coding Sessions
                   </p>
                 </li>
                 <li className="ml-4">
                   <p className="mt-12 text-xl font-normal text-second">
-                    • 24/07/2023 - Last date for code submission
+                    • 28/07/2023 - Last date for code submission
                   </p>
                 </li>
               </ul>

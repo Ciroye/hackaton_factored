@@ -41,8 +41,8 @@ const Details = () => {
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   Where?
                 </h1>
-                <p className="mt-3 text-white font-abril text-xl">
-                  The hackathon will take place online. Over{' '}
+                <p className="mt-3 text-xl text-white font-abril">
+                  The Datathon will take place online. Over{' '}
                   <a
                     className="text-lg no-underline text-fourth"
                     href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
@@ -60,7 +60,7 @@ const Details = () => {
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   Who?
                 </h1>
-                <p className="mt-3 text-white font-abril text-xl ">
+                <p className="mt-3 text-xl text-white font-abril ">
                   We welcome anyone with experience and/or interest in data in
                   any field related to Machine Learning, Software Engineering,
                   Data Engineering, and Data Analytics.
@@ -72,7 +72,7 @@ const Details = () => {
                 <h1 className="w-auto max-w-[100px] text-2xl font-semibold text-second bg-fourth text-center rounded-md">
                   How?
                 </h1>
-                <p className="mt-3 text-white font-abril text-xl ">
+                <p className="mt-3 text-xl text-white font-abril ">
                   The hackathon spans over two weeks (see the Timeline section).
                   Code commit windows will be available daily for you to push
                   your changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
@@ -91,7 +91,7 @@ const Details = () => {
           </motion.div>
 
           <motion.div
-            className="items-center justify-center hidden ml-12 md:flex w-/2 mt-24"
+            className="items-center justify-center hidden mt-24 ml-12 md:flex w-/2"
             variants={challangeVariantsImage('right', 'tween', 0.2, 1)}
           >
             <Image

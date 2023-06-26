@@ -32,7 +32,7 @@ const Challenge = () => {
             >
               Join us to create innovative data solutions (web apps, chatbots,
               dashboards, model interfaces...) that empower businesses by
-              generating insights from product reviews.Ideally, these data
+              generating insights from product reviews. Ideally, these data
               products will help solve a wide range of business problems, like
               product optimization, marketing budget allocation, and many
               others!
