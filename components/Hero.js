@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="grid grid-cols-3 row-gap-8">
               <div className="text-center">
                 <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  $5000 US
+                  $5000
                 </h6>
                 <p className="text-base font-bold text-white md:text-lg font-abril">
                   1st Prize
@@ -58,7 +58,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  $2500 US
+                  $2500
                 </h6>
                 <p className="text-base font-bold text-white md:text-lg font-abril ">
                   2nd Prize
@@ -66,7 +66,7 @@ const Hero = () => {
               </div>
               <div className="text-center">
                 <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  $1500 US
+                  $1500
                 </h6>
                 <p className="text-base font-bold text-white md:text-lg font-abril">
                   3rd Prize
