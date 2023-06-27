@@ -2,18 +2,14 @@
 import React, { useState } from 'react'
 import { Modal, Button } from 'react-bootstrap'
 
-const GoogleForm = () => {
+const GoogleForm = ({ className }) => {
   const [show, setShow] = useState(false)
   const handleClose = () => setShow(false)
   const handleShow = () => setShow(true)
 
   return (
     <>
-      <a
-        className="px-8 py-3 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth"
-        onClick={handleShow}
-        type="button"
-      >
+      <a className={className} onClick={handleShow} type="button">
         Register Now
       </a>
 

@@ -41,10 +41,10 @@ const Criteria = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-2xl font-bold text-justify font-abril">
+                <h5 className="mb-4 text-2xl font-bold text-justify font-abril text-second ">
                   Judging Criteria
                 </h5>
-                <p className="text-lg text-justify font-abril">
+                <p className="text-xl font-medium text-justify font-abril text-second">
                   Ensure that your solution works flawlessly and delivers
                   impactful insights. <br />
                   <br /> Criteria includes problem understanding, data analysis
@@ -75,13 +75,13 @@ const Criteria = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-2xl font-bold text-justify font-abril">
+                <h5 className="mb-4 text-2xl font-bold text-justify font-abril text-second">
                   Registration
                 </h5>
-                <p>
+                <p className="text-xl font-medium text-second">
                   <ul className="py-2 text-justify list-disc list-inside font-abril">
-                    <li className="py-2 text-lg">Teams of up to 4 members,</li>
-                    <li className="text-lg">
+                    <li className="py-2 text-xl">Teams of up to 4 members,</li>
+                    <li className="text-xl">
                       Registration closes on 14th of July, 2023.
                     </li>
                   </ul>
@@ -111,16 +111,16 @@ const Criteria = () => {
                 </div>
               </div>
               <div className="p-6">
-                <h5 className="mb-4 text-2xl font-bold font-abril">
+                <h5 className="mb-4 text-2xl font-bold font-abril text-second">
                   Additional details
                 </h5>
-                <p>
+                <p className="text-xl font-medium text-second">
                   <ul className="list-disc list-inside font-abril">
-                    <li className="py-2 text-lg">
+                    <li className="py-2 text-xl">
                       Code submission round: Each team will have to submit the
                       code within the specified window.
                     </li>
-                    <li className="py-2 text-lg">
+                    <li className="py-2 text-xl">
                       Interview Round: Candidates who qualify will get the
                       opportunity to display their solution to the Factored
                       Panel.

@@ -7,16 +7,16 @@ import GoogleForm from './GoogleForm'
 
 const Hero = () => {
   return (
-    <section className="container max-w-5xl pt-10 mx-auto md:pt-20" id="hero">
+    <section className="container max-w-5xl pt-10 mx-auto md:pt-12" id="hero">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
-        className="grid items-center grid-cols-1 gap-12 text-left text-[white]"
+        className="grid items-center grid-cols-1  text-left text-[white]"
       >
         <motion.div
           variants={fadeIn('right', 'tween', 0.1, 4)}
-          className="flex-[0.95] flex justify-center flex-col md:pl-20"
+          className="flex flex-col justify-center md:px-8"
         >
           <h3 className="mb-2 text-5xl font-extrabold tracking-tight text-center md:text-7xl font-abril">
             Factored Datathon 2023
@@ -75,7 +75,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex justify-center pb-20 md:pt-6">
-            <GoogleForm />
+            <GoogleForm className="px-8 py-3 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth" />
           </div>
         </motion.div>
       </motion.div>

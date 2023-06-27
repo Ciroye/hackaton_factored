@@ -84,7 +84,7 @@ const Factored = () => {
               </div>
               <div className="ml-4 grow">
                 <p className="mb-2 text-3xl font-bold text-white font-abril">
-                  Best veting process
+                  Best vetting process
                 </p>
                 <p className="text-xl text-white font-abril ">
                   Have unrivaled experience and laser focus on vetting,
@@ -133,7 +133,7 @@ const Factored = () => {
           </motion.div>
 
           <motion.div
-            className="items-center justify-center hidden ml-12 md:flex w-/2 mt-24"
+            className="items-center justify-center hidden mt-24 ml-12 md:flex w-/2"
             variants={challangeVariantsImage('right', 'tween', 0.2, 1)}
           >
             <div
@@ -153,7 +153,7 @@ const Factored = () => {
               <div className="absolute top-0 bottom-0 left-0 right-0 overflow-hidden ">
                 <div className="flex items-center justify-center h-full">
                   <div className="px-4 py-12 text-center text-white">
-                    <p className="text-2xl text-white font-abril  ">
+                    <p className="text-2xl text-white font-abril ">
                       Factored helps the highest-profile USA companies to build
                       and scale elite teams in data science, machine learning,
                       data engineering & data analytics. <br /> <br />
