@@ -16,7 +16,7 @@ const Criteria = () => {
         whileInView="show"
         variants={fadeIn('down', 'tween', 0.1, 1)}
       >
-        <h2 className="flex justify-center mb-20 text-second text-7xl font-abril">
+        <h2 className="flex justify-center mb-20 text-5xl text-second md:text-7xl font-abril">
           Criteria & Registration
         </h2>
         <div className="grid md:grid-cols-3 md:gap-x-2">
