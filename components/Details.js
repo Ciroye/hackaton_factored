@@ -73,7 +73,7 @@ const Details = () => {
                   How?
                 </h1>
                 <p className="mt-3 text-xl text-white font-abril ">
-                  The hackathon spans over two weeks (see the Timeline section).
+                  The Datathon spans over two weeks (see the Timeline section).
                   Code commit windows will be available daily for you to push
                   your changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
                   <a
@@ -82,7 +82,7 @@ const Details = () => {
                   >
                     Slack
                   </a>{' '}
-                  workspace to stay updated on real-time hackathon news and
+                  workspace to stay updated on real-time Datathon news and
                   logistics. Communicate with your team through any platform of
                   your choice
                 </p>

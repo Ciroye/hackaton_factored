@@ -20,10 +20,10 @@ const Criteria = () => {
           Criteria & Registration
         </h2>
         <div className="grid md:grid-cols-3 md:gap-x-2">
-          <div className="mb-12 md:mb-0 mx-3">
+          <div className="mx-3 mb-12 md:mb-0">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full z-10 bg-white p-4 text-primary shadow-md">
+                <div className="z-10 inline-block p-4 -mt-8 bg-white rounded-full shadow-md text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -54,10 +54,10 @@ const Criteria = () => {
             </div>
           </div>
 
-          <div className="mb-12 md:mb-0 mx-3">
+          <div className="mx-3 mb-12 md:mb-0">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full z-10 bg-white p-4 text-primary shadow-md">
+                <div className="z-10 inline-block p-4 -mt-8 bg-white rounded-full shadow-md text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -82,7 +82,7 @@ const Criteria = () => {
                   <ul className="py-2 text-justify list-disc list-inside font-abril">
                     <li className="py-2 text-lg">Teams of up to 4 members,</li>
                     <li className="text-lg">
-                      Registration closes on 7th of July, 2023.
+                      Registration closes on 14th of July, 2023.
                     </li>
                   </ul>
                 </p>
@@ -90,10 +90,10 @@ const Criteria = () => {
             </div>
           </div>
 
-          <div className="mb-12 md:mb-0 mx-3 md:mx-0">
+          <div className="mx-3 mb-12 md:mb-0 md:mx-0">
             <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
               <div className="flex justify-center">
-                <div className="-mt-8 inline-block rounded-full z-10 bg-white p-4 text-primary shadow-md">
+                <div className="z-10 inline-block p-4 -mt-8 bg-white rounded-full shadow-md text-primary">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
