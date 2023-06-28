@@ -8,27 +8,28 @@ import {
   staggerContainer,
   fadeIn,
 } from '../utils/motion'
+import { Parallax } from 'react-scroll-parallax'
 
 const Challenge = () => {
   return (
-    <section className="container mx-auto" id="challenge">
-      <div className="py-20">
+    <section className="md:ml-[8rem] " id="challenge">
+      <div className="py-1">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
-          className="grid md:grid-cols-3 "
+          className="grid md:grid-cols-10 "
         >
           <motion.div
             variants={fadeIn('left', 'tween', 0.2, 1)}
-            className="px-2 mx-auto flex-[0.75] flex justify-center flex-col md:px-24 col-span-2 max-w-4xl"
+            className="flex flex-col justify-center max-w-3xl col-span-5 py-6 mx-auto md:px-0 md:mx-0"
           >
             <h2 className="flex w-full pb-6 font-extrabold text-white text-7xl justify-left font-abril">
               The Challenge
             </h2>
             <h2
-              className={`text-xl text-white font-abril leading-[38px md:pr-10`}
+              className={`text-lg text-white font-abril leading-[38px md:pr-10`}
             >
               Join us to create innovative data solutions (web apps, chatbots,
               dashboards, model interfaces...) that empower businesses by
@@ -55,7 +56,7 @@ const Challenge = () => {
                     </span>
                   </div>
                 </div>
-                <p className="flex-1 ml-[30px] font-light	 text-lg text-white leading-[32.4px] font-abril ">
+                <p className="flex-1 ml-[30px] font-light	text-lg text-white leading-[32.4px] font-abril ">
                   <strong className="font-black">Data Engineering:</strong>{' '}
                   Extracting data from multiple sources, harmonizing datasets,
                   and automating data transformation. Be prepared to work with
@@ -90,25 +91,29 @@ const Challenge = () => {
                 </div>
                 <p className="flex-1 ml-[30px] font-light	 text-lg text-white leading-[32.4px] font-abril">
                   <strong className="font-black"> Data Analytics:</strong>{' '}
-                  Addessing data quality issues, analyzing key parameters,
+                  Addressing data quality issues, analyzing key parameters,
                   visualizing insights, and selecting relevant KPIs.
                 </p>
               </div>
             </div>
           </motion.div>
-          <div>
-            <motion.div
-              className="items-center justify-center flex-1 hidden mt-6 md:flex "
-              variants={challangeVariantsImage('right')}
+
+          <div
+            className="relative inset-0 z-10 items-center justify-center hidden col-span-5 mx-auto mt-6 overflow-hidden md:flex"
+            variants={challangeVariantsImage('right')}
+          >
+            <Parallax
+              translateY={[-30, 30]}
+              className="z-10 object-cover h-full overflow-clip rounded-xl"
             >
               <Image
-                className="mt-12 rounded-lg"
-                src="/Hackathon03.png"
+                className="object-cover h-full overflow-clip rounded-xl"
+                src="/challenge.svg"
                 alt=""
-                width={600}
-                height={600}
+                width={1500}
+                height={1200}
               />
-            </motion.div>
+            </Parallax>
           </div>
         </motion.div>
       </div>

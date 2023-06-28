@@ -11,35 +11,40 @@ import StarsCanvas from '@/components/Starts'
 import Factored from '@/components/Factored'
 import InitialTransition from '@/components/InitialTransition'
 import 'bootstrap/dist/css/bootstrap.css'
+import { ParallaxProvider } from 'react-scroll-parallax'
 
 export default function Home() {
   return (
-    <div className="mx-auto">
-      <link rel="icon" href="/favicon.ico" />
-      <div className="relative z-0 bg-[url(https://i.ibb.co/dtWWrrZ/Hackathon-1.png)] bg-no-repeat bg-center bg-cover">
-        <InitialTransition />
-        <NavBar />
+    <ParallaxProvider>
+      <div className="mx-auto">
+        <link rel="icon" href="/favicon.ico" />
         <div className="relative z-0 ">
-          <Hero />
-          {/* <StarsCanvas /> */}
+          <InitialTransition />
+          <div className="bg-second">
+            <NavBar />
+          </div>
+          <div className="relative z-0 bg-[url(https://i.ibb.co/dtWWrrZ/Hackathon-1.png)] bg-no-repeat bg-center bg-cover">
+            <Hero />
+            {/* <StarsCanvas /> */}
+          </div>
         </div>
+        <div className="bg-second">
+          <Challenge />
+        </div>
+        <div className="bg-white">
+          <Timeline />
+        </div>
+        <div className="bg-second">
+          <Details />
+        </div>
+        <div className="bg-white">
+          <Criteria />
+        </div>
+        <div className="bg-second">
+          <Factored />
+        </div>
+        <Footer />
       </div>
-      <div className="bg-second">
-        <Challenge />
-      </div>
-      <div className="bg-fifth">
-        <Timeline />
-      </div>
-      <div className="bg-second">
-        <Details />
-      </div>
-      <div className="bg-fifth">
-        <Criteria />
-      </div>
-      <div className="bg-second">
-        <Factored />
-      </div>
-      <Footer />
-    </div>
+    </ParallaxProvider>
   )
 }
