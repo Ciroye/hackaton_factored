@@ -18,9 +18,9 @@ const Timeline = () => {
           variants={fadeIn('up', 'spring', 0.2, 1)}
           initial="hidden"
           whileInView="show"
-          className="flex items-center justify-center pl-0 pb-28 md:px-0 sm:flex"
+          className="items-center justify-center pl-0 pb-28 md:px-0 sm:flex"
         >
-          <li className="relative pb-6 mx-2 md:mx-0 md:h-48">
+          <li className="relative pb-6 mx-4 md:mx-0 md:h-48">
             <div className="flex items-center">
               <div className="z-10 flex items-center justify-center w-10 h-10 rounded-full bg-second ring-0 ring-whit ">
                 <svg

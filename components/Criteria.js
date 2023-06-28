@@ -121,8 +121,8 @@ const Criteria = () => {
                 </div>
                 <br />
                 <p className="text-lg font-medium text-white font-roboto">
-                  <ul className="py-2font-abril">
-                    <li className="py-2 text-lg">Teams of up to 4 members,</li>
+                  <ul className="py-2">
+                    <li className="py-2 text-lg">Teams of up to 4 members.</li>
                     <br />
                     <svg
                       width="60"
@@ -191,8 +191,8 @@ const Criteria = () => {
                   </svg>
                 </div>
                 <br />
-                <p className="text-lg font-medium text-white text-roboto">
-                  <ul className=" font-abril">
+                <p className="text-lg font-medium text-white font-roboto">
+                  <ul className="">
                     <li className="py-2 text-lg">
                       Code submission round: Each team will have to submit the
                       code within the specified window.
@@ -214,7 +214,7 @@ const Criteria = () => {
                     </svg>
 
                     <li className="py-2 text-lg">
-                      Interview Round: Candidates who qualify will get the
+                      Interview round: Candidates who qualify will get the
                       opportunity to display their solution to the Factored
                       Panel.
                     </li>

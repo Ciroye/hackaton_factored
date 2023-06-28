@@ -11,7 +11,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 const Details = () => {
   return (
-    <section className="md:ml-[6rem] py-4" id="details">
+    <section className="md:ml-[6rem] py-4 ml-6" id="details">
       <motion.div
         variants={staggerContainer}
         initial="hidden"

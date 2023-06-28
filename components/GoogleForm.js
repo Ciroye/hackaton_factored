@@ -20,7 +20,7 @@ const GoogleForm = ({ className }) => {
         <Modal.Body>
           <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSekyuZbJIOZukJc8rDCqH5oMxun3CJ7jfkTvOnxv1dXIaWD7Q/viewform?embedded=true"
-            width="640"
+            width="800"
             height="600"
           >
             Loading…
