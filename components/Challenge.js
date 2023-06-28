@@ -12,7 +12,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 const Challenge = () => {
   return (
-    <section className="md:ml-[8rem] ml-6 pt-4" id="challenge">
+    <section className="md:ml-[8rem] ml-6 pt-4 md:pt-0" id="challenge">
       <div className="py-1">
         <motion.div
           variants={staggerContainer}
