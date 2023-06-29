@@ -42,7 +42,7 @@ const Timeline = () => {
               <div className="md:flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 md:pr-8">
-              <h3 className="text-3xl font-thin text-second font-abril">
+              <h3 className="text-2xl font-thin text-second font-abril">
                 Registration and kickoff
               </h3>
               <svg
@@ -57,7 +57,7 @@ const Timeline = () => {
               <ul>
                 <li className="">
                   <p className="mt-6 text-xl font-normal text-second font-roboto">
-                    <strong>14/07/2023</strong>
+                    <strong>22/07/2023</strong>
                     <br />
                     Registration Deadline
                   </p>
@@ -79,7 +79,7 @@ const Timeline = () => {
                 </svg>
                 <li className="divide-x-2 ">
                   <p className="mt-6 text-xl font-normal text-second font-roboto">
-                    <strong className="">17/07/2023</strong>
+                    <strong className="">24/07/2023</strong>
                     <br />
                     Datathon Kickoff
                   </p>
@@ -109,7 +109,7 @@ const Timeline = () => {
               <div className="flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-thin text-second font-abril">
+              <h3 className="text-2xl font-thin text-second font-abril">
                 Coding sessions
               </h3>
               <svg
@@ -124,7 +124,7 @@ const Timeline = () => {
               <ul>
                 <li className="">
                   <p className="mt-6 text-xl font-normal text-second font-roboto">
-                    <strong>17/07/2023 - 28/07/2023</strong>
+                    <strong>24/07/2023 - 5/08/2023</strong>
                     <br /> Coding Sessions
                   </p>
                 </li>
@@ -145,7 +145,7 @@ const Timeline = () => {
                 </svg>
                 <li className="">
                   <p className="mt-12 text-xl font-normal text-second font-roboto">
-                    <strong>28/07/2023</strong>
+                    <strong>5/08/2023</strong>
                     <br /> Last date for code submission
                   </p>
                 </li>
@@ -173,7 +173,7 @@ const Timeline = () => {
               <div className="flex w-full bg-gray-200 h-0.5"></div>
             </div>
             <div className="mt-3 sm:pr-8">
-              <h3 className="text-3xl font-thin text-second font-abril">
+              <h3 className="text-2xl font-thin text-second font-abril">
                 Subsequent stages
               </h3>
               <svg

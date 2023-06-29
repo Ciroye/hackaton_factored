@@ -35,14 +35,14 @@ const Hero = () => {
             <p className="hidden max-w-4xl text-lg text-center text-white align-middle md:block max-auto font-roboto">
               <br />
               <span className="font-bold">
-                Join the biggest Datathon in the Americas and showcase your
+                Join the biggest Datathon in Latin America and showcase your
                 skills by delving into a vast dataset of Amazon product reviews!
               </span>
               <br />
               Show off your data skills for a chance to win some great prizes,
               including the opportunity to be
               <a className="font-bold text-white no-underline"> INTERVIEWED </a>
-              by our top-notch team at
+              by our engineering & talent team at
               <a className="font-bold text-white no-underline"> FACTORED!</a>
             </p>
           </div>

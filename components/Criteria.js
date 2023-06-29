@@ -141,7 +141,7 @@ const Criteria = () => {
                     </svg>
                     <br />
                     <li className="text-lg">
-                      Registration closes on 14th of July, 2023.
+                      Registration closes on 22th of July, 2023.
                     </li>
                   </ul>
                 </p>
