@@ -23,7 +23,7 @@ export default function Home() {
           <div className="bg-second">
             <NavBar />
           </div>
-          <div className="relative z-0 bg-[url(https://i.ibb.co/dtWWrrZ/Hackathon-1.png)] bg-no-repeat bg-center bg-cover">
+          <div className="relative z-0 bg-[url('/Hackathon-1.png')] bg-no-repeat bg-center bg-cover">
             <Hero />
             {/* <StarsCanvas /> */}
           </div>
