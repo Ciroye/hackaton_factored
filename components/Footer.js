@@ -9,7 +9,7 @@ const Footer = () => {
         </p>
         <a
           className="flex items-center text-base text-white"
-          href="https://datathon-2023-terms-and-conditions.s3.us-east-2.amazonaws.com/220623+Factored+Datathon+Terms+and+Conditions-1.pdf"
+          href="https://datathon-2023-terms-and-conditions.s3.us-east-2.amazonaws.com/110723+Factored+Datathon+Terms+and+Conditions.pdf"
           target="_blank"
         >
           Terms and Conditions
