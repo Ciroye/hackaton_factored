@@ -12,10 +12,26 @@ import Factored from '@/components/Factored'
 import InitialTransition from '@/components/InitialTransition'
 import 'bootstrap/dist/css/bootstrap.css'
 import { ParallaxProvider } from 'react-scroll-parallax'
+import Script from 'next/script'
 
 export default function Home() {
   return (
     <ParallaxProvider>
+      <Script
+        strategy="lazyOnload"
+        src="https://www.googletagmanager.com/gtag/js?id=G-F9N06T6JQB"
+      />
+
+      <Script id="analytics" strategy="lazyOnload">
+        {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-F9N06T6JQB', {
+        page_path: window.location.pathname,
+        });
+    `}
+      </Script>
       <div className="mx-auto">
         <link rel="icon" href="/favicon.ico" />
         <div className="relative z-0 ">
