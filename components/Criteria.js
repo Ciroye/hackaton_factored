@@ -229,7 +229,7 @@ const Criteria = () => {
           through{' '}
           <a
             className="text-lg no-underline text-seventh"
-            href="https://join.slack.com/t/factored-1st-datathon/shared_invite/zt-1xphdctm9-KkbScI0tcuQfaqK0htg18Q"
+            href="https://join.slack.com/t/factored-datathon-23/shared_invite/zt-1zmj3aj8y-jG8RPAtIX~2cLpf6nzbTVw"
           >
             Slack
           </a>{' '}
