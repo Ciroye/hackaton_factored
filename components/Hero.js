@@ -74,9 +74,9 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center md:pt-6 pt-2">
+          {/* <div className="flex justify-center pt-2 md:pt-6">
             <GoogleForm className="px-12 py-2 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth" />
-          </div>
+          </div> */}
           <div className="my-6">
             <ScrollLink
               to="challenge"
