@@ -226,15 +226,8 @@ const Criteria = () => {
         </div>
         <h3 className="mx-4 mt-10 text-lg font-semibold text-second">
           * Don&#39;t have a team? No problem! Connect with other participants
-          through{' '}
-          <a
-            className="text-lg no-underline text-seventh"
-            href="https://join.slack.com/t/factored-datathon-23/shared_invite/zt-1zmj3aj8y-jG8RPAtIX~2cLpf6nzbTVw"
-          >
-            Slack
-          </a>{' '}
-          and create a team. In case of any extra participants, we&#39;ll assign
-          or form teams.
+          through Slack and create a team. In case of any extra participants,
+          we&#39;ll assign or form teams.
         </h3>
       </motion.div>
     </motion.section>

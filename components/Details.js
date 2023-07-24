@@ -36,16 +36,10 @@ const Details = () => {
                 Where?
               </h1>
               <p className="mt-3 text-xl text-white font-abril">
-                The Datathon will take place online. Over{' '}
-                <a
-                  className="text-lg no-underline text-fourth"
-                  href="https://join.slack.com/t/factored-datathon-23/shared_invite/zt-1zmj3aj8y-jG8RPAtIX~2cLpf6nzbTVw"
-                >
-                  Slack
-                </a>
-                , you&#39;ll have the opportunity to connect with other
-                participants and Factored Experts. We&#39;ll also be hosting
-                workshops, keynotes, and mentoring sessions.
+                The Datathon will take place online. Over Slack , you&#39;ll
+                have the opportunity to connect with other participants and
+                Factored Experts. We&#39;ll also be hosting workshops, keynotes,
+                and mentoring sessions.
               </p>
             </div>
           </div>
@@ -75,13 +69,7 @@ const Details = () => {
               <p className="mt-3 text-xl text-white font-abril ">
                 The Datathon spans over two weeks (see the Timeline section).
                 Code commit windows will be available daily for you to push your
-                changes to GitHub between 18:00 and 21:00 EST. Join our{' '}
-                <a
-                  className="text-lg no-underline text-fourth"
-                  href="https://join.slack.com/t/factored-datathon-23/shared_invite/zt-1zmj3aj8y-jG8RPAtIX~2cLpf6nzbTVw"
-                >
-                  Slack
-                </a>{' '}
+                changes to GitHub between 18:00 and 21:00 EST. Join our Slack
                 workspace to stay updated on real-time Datathon news and
                 logistics. Communicate with your team through any platform of
                 your choice.
