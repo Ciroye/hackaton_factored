@@ -12,7 +12,7 @@ const GoogleForm = ({ className }) => {
     <>
       <BrowserView>
         <a className={className} onClick={handleShow} type="button">
-          Register Now
+          Join waitlist for 2024
         </a>
 
         <Modal show={show} onHide={handleClose} size="lg">
@@ -43,7 +43,7 @@ const GoogleForm = ({ className }) => {
           type="button"
           target="_blank"
         >
-          Register Now
+          Join waitlist for 2024
         </a>
       </MobileView>
     </>

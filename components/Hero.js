@@ -27,56 +27,56 @@ const Hero = () => {
             Software Engineers
           </h4>
           <div className="flex justify-center text-center ">
-            <span className="px-4 py-2 text-3xl uppercase bg-white rounded-full text-second font-robo">
-              Calling all top-notch <strong> data talent!</strong>
+            <span className="px-4 py-2 text-2xl uppercase bg-white rounded-full text-second font-robo">
+              Winners!!
             </span>
           </div>
-          <div className="flex justify-center">
-            <p className="hidden max-w-4xl text-lg text-center text-white align-middle md:block max-auto font-roboto">
-              <br />
-              <span className="font-bold">
-                Join the biggest Datathon in Latin America and showcase your
-                skills by delving into a vast dataset of Amazon product reviews!
-              </span>
-              <br />
-              Show off your data skills for a chance to win some great prizes,
-              including the opportunity to be
-              <a className="font-bold text-white no-underline"> INTERVIEWED </a>
-              by our engineering & talent team at
-              <a className="font-bold text-white no-underline"> FACTORED!</a>
-            </p>
-          </div>
+
           <div className="pt-4">
-            <div className="grid grid-cols-3 row-gap-4 divide-x-2 max-w-[900px] mx-auto ">
+            <div className="grid grid-cols-1 gap-4 max-w-[900px] mx-auto">
               <div className="text-center">
                 <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  US$ 5,000
-                </h6>
-                <p className="text-2xl text-white md:text-lg font-roboto">
-                  1st Prize
-                </p>
-              </div>
-              <div className="text-center">
-                <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  US$ 2,500
+                  Paisa Genious
                 </h6>
                 <p className="text-2xl text-white md:text-lg font-roboto ">
-                  2nd Prize
+                  Daverson Arenas | Cristina Gomez <br />
+                  <strong className="text-4xl text-white md:text-2xl font-roboto ">
+                    1st
+                  </strong>
                 </p>
+                <p className="text-3xl text-white md:text-2xl font-roboto"></p>
               </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4 max-w-[900px] mx-auto">
               <div className="text-center">
                 <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
-                  US$ 1,500
+                  Neurum AI
                 </h6>
                 <p className="text-2xl text-white md:text-lg font-roboto">
-                  3rd Prize
+                  Julio Cabrera | Mario Ochoa | Juan Chica
+                  <br />
+                  <strong className="text-4xl text-white md:text-2xl font-roboto">
+                    2nd
+                  </strong>
+                </p>
+              </div>
+              <div className="pt-12 text-center">
+                <h6 className="text-3xl font-bold md:text-4xl text-deep-purple-accent-400 font-abril">
+                  Datacticos
+                </h6>
+                <p className="text-2xl text-white md:text-lg font-roboto">
+                  Yhorman Bedoya | Gabriel Ceron | Diego Rojas
+                  <br />
+                  <strong className="text-4xl text-white md:text-2xl font-roboto">
+                    3rd
+                  </strong>
                 </p>
               </div>
             </div>
           </div>
-          {/* <div className="flex justify-center pt-2 md:pt-6">
+          <div className="flex justify-center pt-2 md:pt-6">
             <GoogleForm className="px-12 py-2 text-xl font-semibold text-center no-underline transition duration-200 rounded-full shadow-md text-second bg-fourth" />
-          </div> */}
+          </div>
           <div className="my-6">
             <ScrollLink
               to="challenge"
