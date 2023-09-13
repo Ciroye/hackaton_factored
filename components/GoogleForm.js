@@ -21,7 +21,7 @@ const GoogleForm = ({ className }) => {
           </Modal.Header>
           <Modal.Body>
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSekyuZbJIOZukJc8rDCqH5oMxun3CJ7jfkTvOnxv1dXIaWD7Q/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeMAR2PkykRX4GMdQ9Td09MXI1257s330ukm_qp8WoOA6xx4w/viewform?embedded=true"
               width="800"
               height="600"
               className="mx-auto"
